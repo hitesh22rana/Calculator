@@ -10,27 +10,31 @@
 </head>
 <body>
     <div class="container">
-        <div class="calculator">
+        <div id = "calc" class="calculator">
+            <label class="switch">
+                <input type="checkbox" onclick="Themechange()">
+                <span class="slider round"></span>
+            </label>
             <input type="text" placeholder="0" id = "output-screen">
-            <button onclick="Clear()">AC</button>
-            <button onclick="del()">DEL</button>
-            <button onclick="display('%')">%</button>
-            <button onclick="display('/')">/</button>
-            <button onclick="display('7')">7</button>
-            <button onclick="display('8')">8</button>
-            <button onclick="display('9')">9</button>
-            <button onclick="display('*')">*</button>
-            <button onclick="display('4')">4</button>
-            <button onclick="display('5')">5</button>
-            <button onclick="display('6')">6</button>
-            <button onclick="display('-')">-</button>
-            <button onclick="display('1')">1</button>
-            <button onclick="display('2')">2</button>
-            <button onclick="display('3')">3</button>
-            <button onclick="display('+')">+</button>
-            <button onclick="display('.')">.</button>
-            <button onclick="display('0')">0</button>
-            <button id = "equal" onclick="Calculate('=')">=</button>
+            <button class = "buttons" onclick="Clear()">AC</button>
+            <button class = "buttons" onclick="del()">DEL</button>
+            <button class = "buttons" onclick="display('%')">%</button>
+            <button class = "buttons" onclick="display('/')">/</button>
+            <button class = "buttons" onclick="display('7')">7</button>
+            <button class = "buttons" onclick="display('8')">8</button>
+            <button class = "buttons" onclick="display('9')">9</button>
+            <button class = "buttons" onclick="display('*')">*</button>
+            <button class = "buttons" onclick="display('4')">4</button>
+            <button class = "buttons" onclick="display('5')">5</button>
+            <button class = "buttons" onclick="display('6')">6</button>
+            <button class = "buttons" onclick="display('-')">-</button>
+            <button class = "buttons" onclick="display('1')">1</button>
+            <button class = "buttons" onclick="display('2')">2</button>
+            <button class = "buttons" onclick="display('3')">3</button>
+            <button class = "buttons" onclick="display('+')">+</button>
+            <button class = "buttons" onclick="display('.')">.</button>
+            <button class = "buttons" onclick="display('0')">0</button>
+            <button class = "equals" onclick="Calculate('=')">=</button>
         </div>
     </div>
     <script src="script.js"></script>
